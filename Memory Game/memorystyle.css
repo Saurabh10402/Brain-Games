@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-image:url(img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    
+  }
+  h1{
+    color:rgb(36, 35, 33);
+    font-family: 'Press Start 2P', sans-serif; 
+    margin-top: 5%;
+  }
+  @media (max-width:600px)
+  {
+    body{
+      background-repeat: no-repeat;
+      background-size: auto;
+    }
+  }
+  
+  .level
+  {
+    font-size: 240%;
+    display:flex;
+    flex-direction: column;
+    text-decoration: none;
+    align-items: center;
+    font-weight: 600;
+   }
+   @media (max-width:600px)
+   {
+    .level{
+      margin-left: 7rem;
+      margin-top: 11rem;
+    }
+   }
+  .level1{
+     text-decoration: none;
+     padding: 5% 0 5% 0;
+     color:rgb(36, 35, 33);
+
+  }
+  .level1:hover{
+  color:green
+  }
+  .level2:hover{
+    color:rgb(176, 176, 15)
+    }
+    .level3:hover{
+        color:red;
+        }
+  
+  .level2{
+    text-decoration: none;
+    padding: 5% 0 5% 0;
+    color:rgb(36, 35, 33);
+
+ }
+ .level3{
+  text-decoration: none;
+  padding: 5% 0 5% 0;
+  color:rgb(36, 35, 33);
+
+}
