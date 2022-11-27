@@ -1,0 +1,76 @@
+body{
+    background-image: url('images/stars.jpg');
+    background-attachment: fixed;
+}
+.brain img{
+    opacity:0.6;
+    width: 25%;
+}
+.brain img:hover{
+    opacity: 1;
+}
+.heading{
+    margin-left: 2.5%;
+    margin-top: 5%;
+    color: white;
+    align-content: center;
+    font-size: 70px;
+    font-family: 'Press Start 2P', sans-serif;                                               
+}                                             
+.brain{
+    display:flex;
+}
+.games {
+    display: flex;
+    width: 100%;
+    text-align: center;
+}
+
+.sub-game1 {
+    width: 50%;
+    display: inline-block;
+    margin-left: 20%;
+    margin-top: 0%;
+}
+
+.sub-game2 {
+    width: 50%;
+    display: inline-block;
+    margin-right: 20%;
+}
+
+.game-image {
+    width: 35%;
+    margin: 5%;
+    transition: width 1s ease-in-out, margin 1s ease-in-out;}
+
+.game-image:hover {
+    transition: width 0.5s ease-in-out, margin 0.5s ease-in-out;
+    width: 40%;
+    margin: 2.5%;
+}
+button {
+    display: inline-block;
+    font-size: 24px;
+    padding: 5px;
+    width: 40%;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 9px #999;
+  }
+button:hover {
+    background-color: #3e8e41
+}
+button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+.name {
+    color: white;
+    font-family: 'Press Start 2P', sans-serif;
+}
