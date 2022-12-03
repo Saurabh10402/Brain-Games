@@ -39,31 +39,68 @@
       margin-top: 11rem;
     }
    }
-  .level1{
-     text-decoration: none;
-     padding: 5% 0 5% 0;
-     color:rgb(36, 35, 33);
-
+   .level1 {
+    display: inline-block;
+    font-size: 24px;
+    padding: 5px;
+    width: 150%;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 9px #999;
   }
-  .level1:hover{
-  color:green
+    .level1:hover {
+    background-color: #3e8e41;
   }
-  .level2:hover{
-    color:rgb(176, 176, 15)
-    }
-    .level3:hover{
-        color:red;
-        }
-  
-  .level2{
-    text-decoration: none;
-    padding: 5% 0 5% 0;
-    color:rgb(36, 35, 33);
+    .level1:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
 
- }
- .level3{
-  text-decoration: none;
-  padding: 5% 0 5% 0;
-  color:rgb(36, 35, 33);
+  .level2 {
+    display: inline-block;
+    font-size: 24px;
+    padding: 5px;
+    width: 150%;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    background-color: #a8da1d;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 9px #999;
+  }
+    .level2:hover {
+    background-color: #778e3e;
+  }
+    .level2:active {
+    background-color: #778e3e;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
 
-}
+  .level3 {
+    display: inline-block;
+    font-size: 24px;
+    padding: 5px;
+    width: 150%;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    background-color: #e71515;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 9px #999;
+  }
+    .level3:hover {
+    background-color: #960a0a;
+  }
+    .level3:active {
+    background-color: #960a0a;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }

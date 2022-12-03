@@ -1,0 +1,16 @@
+body{
+    background: #070d14;
+}
+
+h1{
+  font-family: 'Press Start 2P', sans-serif;
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+}
+p{
+    color: white;
+    font-family: 'Roboto Light', sans-serif;
+    font-size: 1.8rem;
+    text-align: center;
+}
